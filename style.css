@@ -1,15 +1,20 @@
 
  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Jost&family=Montserrat:wght@100&display=swap');
 
-body{
-    background-color: transparent;
-    background-image: url('bg2.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+.new{
+    background-color:rgba(255, 242, 217, 1);
+    /* background-image: url("bg2.png."); */
+  
+    /* border-color: aqua; */
+
 
 }
 nav{
     font-family: 'Montserrat';
+    background-image: url('bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
 }
 nav ul{
     display: flex;
@@ -28,6 +33,11 @@ nav ul li{
     cursor: pointer;
 }
 
+nav ul li:hover{
+    border-bottom: 0.2px solid white;
+    border-width: 150%;
+}
+
 .brand{
     display: flex;
     align-items: center;
@@ -38,7 +48,7 @@ nav ul li{
 
 .brand img{
     width: 80px;
-    /* padding : 0px 8px; */
+    padding : 0px 8px;
     padding-top: 15px;
     padding-left: 15px;
 }
@@ -53,4 +63,71 @@ nav ul li{
     display: flex;
     justify-content: space-between;
     font-weight: 600;
+}
+    
+.footer{
+    background:rgba(37, 44, 50, 1);
+    padding:30px 0px;
+    font-family: 'Montserrat';
+    text-align:center;
+
+
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:0.1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:1.5em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    font-weight: 600;
+    transition:0.5s;
+
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+.footer .line{
+        border: 0.5px solid rgb(255,255,255);       
+        margin: 10px 0;
+        margin-left: 25em;
+        align-items: center;
+        width: 50vw;
+        display: flex;
+}
+    
+    
+
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+
+}
+.footer .copyright {
+    color: rgb(255,255,255);
+
+}
+.contact{
+    margin-top: 100px;
+    padding-left: 1000px;
+    padding-top: 40px;
+    height: 400px;
+    background-color: rgba(37, 44, 50, 1);
 }
