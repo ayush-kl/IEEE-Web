@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- <script>
+        document.getElementById('contactUs').addEventListener('click', function (event) {
+            event.preventDefault(); // Prevent the default link behavior
+            const targetSection = document.querySelector('#targetSectionyes');
+            targetSection.scrollIntoView({ behavior: 'smooth' });
+        });
+    </script> -->
+    <nav class="zero_page nav_gradient">
+        <ul>
+            <li class="brand"><img src="logo.png" alt="IITG Logo"> </li>
+            <div class="text">
+                <li><a href="#home">Home</a> </li>
+                <li><a href="#About"> About</a> </li>
+                <li> <a href="#Speakers"> Speakers</a></li>
+                <li><a href="#bottom">Organising Committee</a></li>
+
+            </div>
+            <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                
+            </a> -->
+
+        </ul>
+
+
+
+    </nav>
+
+
+    <div class="topnav">
+        <li class="brand"><img src="logo.png" alt="IITG Logo"> </li>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <li><a href="#home">Home</a> </li>
+            <li><a href="#About"> About</a> </li>
+            <li> <a href="#Speakers"> Speakers</a></li>
+            <li><a href="#bottom">Organising Committee</a></li>
+            <li> <a href="https://docs.google.com/forms/d/1DoLo6V74cXBrwCHRxRQybWy3iUTHuDH4P7_T2moCnns/viewform?pli=1&pli=1&edit_requested=true"
+                    id="contactUs">Register</a> </li>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon Hamb" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="img_bg" id="home">
+        <!-- <img src="bg2.png" alt=""> -->
+    </div>
+
+
+
+
+    <!-- <div class="second_ele">
+        <h2>Department of Electronics and Communication Engineering</h2>
+    </div>
+    <div class="third">
+        <img src="https://srmap.edu.in/wp-content/uploads/2022/11/ieee-signal.png?x60076" alt="">
+        <div class="date">
+            <p class="p1">December 05 - 10, 2022</p>
+            <p class="p2">Count Every Second Until the Event</p>
+
+        </div>
+        <div class="countdown">
+            <div class="countdown-container">
+                <div class="countdown" id=  "countdown"></div>
+            </div>
+
+            <script>
+                // Set the target date for the countdown (change this date)
+                var targetDate = new Date("2023-12-31T23:59:59").getTime();
+
+                // Update the countdown every second
+                var countdown = setInterval(function () {
+                    var now = new Date().getTime();
+                    var timeRemaining = targetDate - now;
+
+                    // Calculate the days, hours, minutes, and seconds
+                    var days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+                    var hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    var minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+                    var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+                    // Update the countdown element
+                    var countdownElement = document.getElementById("countdown");
+                    countdownElement.innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+                    // When the countdown reaches zero
+                    if (timeRemaining < 0) {
+                        clearInterval(countdown);
+                        countdownElement.innerHTML = "EXPIRED";
+                    }
+                }, 1000);
+            </script>
+
+        </div>
+    </div> -->
+    <!-- <div class="fourth">
+        <h2 class="fourth_a">
+            Last Date for Registration:
+        </h2>
+
+        <h2 class="fourth_b">
+            November 25, 2022
+        </h2>
+    </div> -->
+    <div class="third_page">
+        <div class="About" id="About">
+            <h1>
+                About IEEE GUWAHATI
+            </h1>
+            <p>
+                The main objective of 2023 IEEE Sensors Council’s Seasonal (Winter) school is to provide exposure to
+                researchers (especially from North Eastern part of India) working in the area of Emerging Nano Micro
+                Sensors
+                and related devices. There is no such activity in this domain and through the IEEE Sensors council, we
+                are
+                taking the initiative to provide a ground to budding researchers in this direction. This will give an
+                opportunity to students to attend some eminent talks and help
+            </p>
+        </div>
+        <div class="Scope">
+            <img src="Ankush.jpg" alt="" class="iman">
+            <div class="all">
+                <h1 id="Audi">
+                    Audience
+                </h1>
+                <p class="text">1st IEEE Sensors Council in association with TIH (Technology Innovation Hub) and
+                    ISSS (Institute of Smart Structure and System) is organizing “Winter School” which
+                    is scheduled to be held at the Indian Institute of Technology Guwahati, Assam, India, on
+                    the 5th and 6th of December 2023. The IWS 2023 aims to offer a great opportunity to
+                    bring together professors, researchers, Undergraduate, Postgraduate, and scholars
+                    around the world with a platform to deliver the latest innovative research results and the
+                    most recent developments and trends in “Emerging nano/micro sensors and devices”.
+                    Please circulate this among your students. The winter school will feature invited talks from
+                    the president IEEE Sensors Council, distinguished lecture members, and eminent
+                    personalities all around the globe. The winter school will have workshops as well as poster
+                    presentations. IWS 2023 is technically co-sponsored by IEEE Sensors Council Inc., USA, TIH
+                    IIT Guwahati and ISSS India</p>
+            </div>
+
+        </div>
+        <div class="Scope Scope3">
+            <div class="all">
+                <h1>
+                    Audience
+                </h1>
+                <p class="text1">1st IEEE Sensors Council in association with TIH (Technology Innovation Hub) and
+                    ISSS (Institute of Smart Structure and System) is organizing “Winter School” which
+                    is scheduled to be held at the Indian Institute of Technology Guwahati, Assam, India, on
+                    the 5th and 6th of December 2023. The IWS 2023 aims to offer a great opportunity to
+                    bring together professors, researchers, Undergraduate, Postgraduate, and scholars
+                    around the world with a platform to deliver the latest innovative research results and the
+                    most recent developments and trends in “Emerging nano/micro sensors and devices”.
+                    Please circulate this among your students. The winter school will feature invited talks from
+                    the president IEEE Sensors Council, distinguished lecture members, and eminent
+                    personalities all around the globe. The winter school will have workshops as well as poster
+                    presentations. IWS 2023 is technically co-sponsored by IEEE Sensors Council Inc., USA, TIH
+                    IIT Guwahati and ISSS India</p>
+            </div>
+            <img src="Ankush.jpg" alt="" class="iman3">
+
+        </div>
+        <div class="Scope2">
+            <img src="Ankush.jpg" alt="" class="iman3">
+
+            <p class="text1">1st IEEE Sensors Council in association with TIH (Technology Innovation Hub) and
+                ISSS (Institute of Smart Structure and System) is organizing “Winter School” which
+                is scheduled to be held at the Indian Institute of Technology Guwahati, Assam, India, on
+                the 5th and 6th of December 2023. The IWS 2023 aims to offer a great opportunity to
+                bring together professors, researchers, Undergraduate, Postgraduate, and scholars
+                around the world with a platform to deliver the latest innovative research results and the
+                most recent developments and trends in “Emerging nano/micro sensors and devices”.
+                Please circulate this among your students. The winter school will feature invited talks from
+                the president IEEE Sensors Council, distinguished lecture members, and eminent
+                personalities all around the globe. The winter school will have workshops as well as poster
+                presentations. IWS 2023 is technically co-sponsored by IEEE Sensors Council Inc., USA, TIH
+                IIT Guwahati and ISSS India</p>
+
+        </div>
+
+
+        <h1 class="List" id="Speakers">List of Speakers
+            <hr class="horizontal-line">
+        </h1>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col profs">
+                    <img class="image" src="Ankush.jpg" alt="">
+                    <div class="name">Name of Prof</div>
+                </div>
+                <div class="col profs">
+                    <img class="image" src="WhatsApp Image 2023-10-18 at 10.55.20_189b060c.jpg" alt="">
+                    <div class="name">Name of Prof</div>
+                </div>
+                <div class="col profs">
+                    <img class="image" src="WhatsApp Image 2023-10-18 at 10.55.20_9d3573c2.jpg" alt="">
+                    <div class="name">Name of Prof</div>
+                </div>
+                <div class="col profs">
+                    <img class="image" src="WhatsApp Image 2023-10-18 at 10.55.21_51b4ac25.jpg" alt="">
+                    <div class="name">Name of Prof</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col profs">
+                    <img class="image" src="WhatsApp Image 2023-10-18 at 10.55.21_81031ac4.jpg" alt="">
+                    <div class="name">Name of Prof</div>
+                </div>
+                <div class="col profs">
+                    <img class="image" src="WhatsApp Image 2023-10-18 at 10.55.19_eadf7938.jpg" alt="">
+                    <div class="name">Name of Prof</div>
+                </div>
+                <div class="col profs">
+                    <img class="image" src="WhatsApp Image 2023-10-18 at 10.55.21_a40a1029.jpg" alt="">
+                    <div class="name">Name of Prof</div>
+                </div>
+                <div class="col profs">
+                    <img class="image" src="WhatsApp Image 2023-10-18 at 10.55.22_46f5e409.jpg" alt="">
+                    <div class="name">Name of Prof</div>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="List" id="bottom">Organizing Committee
+            <hr class="horizontal-line">
+        </h1>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col profs ">
+                    <img class="image" src="WhatsApp Image 2023-10-18 at 10.55.21_81031ac4.jpg" alt="">
+                    <div class="name">Name of Prof</div>
+                </div>
+                <div class="col profs ">
+                    <img class="image" src="WhatsApp Image 2023-10-18 at 10.55.19_eadf7938.jpg" alt="">
+                    <div class="name">Name of Prof</div>
+                </div>
+                <div class="col profs ">
+                    <img class="image" src="WhatsApp Image 2023-10-18 at 10.55.21_a40a1029.jpg" alt="">
+                    <div class="name">Name of Prof</div>
+                </div>
+                <div class="col profs ">
+                    <img class="image" src="WhatsApp Image 2023-10-18 at 10.55.22_46f5e409.jpg" alt="">
+                    <div class="name">Name of Prof</div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="table">
+
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col  hello">
+                        tup[e]
+                    </div>
+                    <div class="col hello">
+                        tup[e]
+                    </div>
+                    <div class="col hello">
+                        tup[e]
+                    </div>
+                    <div class="col hello">
+                        tup[e]
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col profs">
+                        hello
+                    </div>
+                    <div class="col  hello">
+                        S.No
+                    </div>
+                    <div class="col hello">
+                        Type of Registration
+                    </div>
+                    <div class="col hello profs">
+                        S.no
+                    </div>
+                </div>
+            </div>
+            <h1>Details of Online Registration and Fee Payment</h1>
+
+        </div> -->
+        <!-- <table class="table table-sm text-center tabll allo table-striped">
+            <thead>
+                <tr class="border border-primary bg-dark allo">
+                    <th scope="col" class="allo">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody class="border border-secondary">
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Ot</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row border">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td colspan="1">Larry the Bird</td>
+                    <td>@twitter</td>
+                    <td>@twitter</td>
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row border">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+            </tbody>
+        </table> -->
+
+
+        <div class="event">
+            <h1>Events Details</h1>
+            <table class="tabla">
+                <tr>
+                    <th>Company</th>
+                    <th>Contact</th>
+                    <th>Country</th>
+                </tr>
+                <tr>
+                    <td>Alfreds Futterkiste</td>
+                    <td>Maria Anders</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>Centro comercial Moctezuma</td>
+                    <td>Francisco Chang</td>
+                    <td>Mexico</td>
+                </tr>
+                <tr>
+                    <td>Ernst Handel</td>
+                    <td>Roland Mendel</td>
+                    <td>Austria</td>
+                </tr>
+                <tr>
+                    <td>Island Trading</td>
+                    <td>Helen Bennett</td>
+                    <td>UK</td>
+                </tr>
+                <tr>
+                    <td>Laughing Bacchus Winecellars</td>
+                    <td>Yoshi Tannamuri</td>
+                    <td>Canada</td>
+                </tr>
+                <tr>
+                    <td>Magazzini Alimentari Riuniti</td>
+                    <td>Giovanni Rovelli</td>
+                    <td>Italy</td>
+                </tr>
+            </table>
+
+        </div>
+        <h1>Details of Online Registration and Fee Payment</h1>
+
+
+        <table class="tabla">
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+            </tr>
+            <tr>
+                <td>Ernst Handel</td>
+                <td>Roland Mendel</td>
+                <td>Austria</td>
+            </tr>
+            <tr>
+                <td>Island Trading</td>
+                <td>Helen Bennett</td>
+                <td>UK</td>
+            </tr>
+            <tr>
+                <td>Laughing Bacchus Winecellars</td>
+                <td>Yoshi Tannamuri</td>
+                <td>Canada</td>
+            </tr>
+            <tr>
+                <td>Magazzini Alimentari Riuniti</td>
+                <td>Giovanni Rovelli</td>
+                <td>Italy</td>
+            </tr>
+        </table>
+        <div class="reg">
+
+            <a href="https://docs.google.com/forms/d/1DoLo6V74cXBrwCHRxRQybWy3iUTHuDH4P7_T2moCnns/viewform?pli=1&pli=1&edit_requested=true"
+                class="flex-items">
+                Register here
+            </a>
+        </div>
+
+    </div>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">The main objective of 2023 IEEE Sensors Council’s Seasonal (Winter)
+                        school
+                        is to provide exposure to researchers (especially from North Eastern part of India) working
+                        in
+                        the area of Emerging Nano Micro Sensors and related devices. There is no such activity in
+                        this
+                        domain and through the IEEE Sensors council, we are taking the initiative to provide a
+                        ground to
+                        budding researchers in this direction. This will give an opportunity to students to attend
+                        some
+                        eminent talks and help them choose a career in the future. </p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Speakers">Speakers</a></li>
+                        <li><a href="#bottom">Organising Committee</a>
+                        </li>
+                        <li><a href="http://scanfcode.com/category/android/">Contact</a></li>
+                        <li><a
+                                href="https://docs.google.com/forms/d/1DoLo6V74cXBrwCHRxRQybWy3iUTHuDH4P7_T2moCnns/viewform?pli=1&pli=1&edit_requested=true">Register</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-5 col-md-3">
+                    <ul class="footer-links">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.306320944217!2d91.68889337548858!3d26.186711890912648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5b7ea0ec0605%3A0x8ebf71279cffc412!2sCore%202%20-%20Academic%20Complex%2C%20IIT%20Guwahati!5e0!3m2!1sen!2sin!4v1697631278048!5m2!1sen!2sin"
+                            width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </ul>
+
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">IEEE : Guwahati Chapter
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="https://www.facebook.com/iitgwt/"><i
+                                    class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="https://www.instagram.com/iitgwt/"><i
+                                    class="fa fa-twitter"></i></a></li>
+                        <li><a class="linkedin" href="https://www.linkedin.com/school/iitg/"><i
+                                    class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a class="registerh"
+        href="https://docs.google.com/forms/d/1DoLo6V74cXBrwCHRxRQybWy3iUTHuDH4P7_T2moCnns/viewform?pli=1&pli=1&edit_requested=true">Register</a>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
